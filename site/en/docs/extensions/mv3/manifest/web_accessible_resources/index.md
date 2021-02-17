@@ -28,7 +28,7 @@ stylesheets, scripts, etc.) as follows:
 
 These resources would then be available in a webpage via the URL
 `chrome-extension://[PACKAGE ID]/[PATH]`, which can be generated with the [extension.getURL][1]
-method. Allowlisted resources are served with appropriate [CORS][2] headers, so they're available
+method. Allow listed resources are served with appropriate [CORS][2] headers, so they're available
 via mechanisms like XHR.
 
 A navigation from a web origin to an extension resource will be blocked unless the resource is
